@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: user:guest
   definition:
-    $text: https://github.com/infracloudio/backstage-msvc-app/new/main/src/cartservice/api-catalog/open-api.yaml
+    $text: https://github.com/infracloudio/backstage-msvc-app/blob/main/src/cartservice/api-catalog/open-api.yaml
