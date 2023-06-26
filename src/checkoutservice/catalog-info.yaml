@@ -10,3 +10,4 @@ spec:
   owner: user:guest
   dependsOn:
     - component:boutique-frontend
+    - component:boutique-carts
