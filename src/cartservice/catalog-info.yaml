@@ -11,5 +11,5 @@ spec:
   dependsOn:
     - component:boutique-frontend
     - component:boutique-checkout
-  provideApis:
+  providesApis:
     - boutique-carts-api
