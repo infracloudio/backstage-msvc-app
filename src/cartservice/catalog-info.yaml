@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: boutique-carts
+  annotations:
+    github.com/project-slug: infracloudio/backstage-msvc-app/src/cartservice
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  dependsOn:
+    - component:boutique-frontend
+    - component:boutique-checkout
+  provideApis:
+    - boutique-carts-api
