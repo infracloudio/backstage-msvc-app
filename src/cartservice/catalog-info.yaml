@@ -10,5 +10,6 @@ spec:
   owner: user:guest
   dependsOn:
     - component:boutique-frontend
+    - component:boutique-products
   providesApis:
     - boutique-carts-api
