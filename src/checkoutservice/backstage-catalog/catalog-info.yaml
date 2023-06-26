@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: boutique-checkout
+  annotations:
+    github.com/project-slug: vaibhav-infracloud/microservices-sock-demo
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  dependsOn:
+    - component:boutique-frontend
