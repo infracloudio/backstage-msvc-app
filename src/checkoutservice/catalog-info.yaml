@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: boutique-checkout
+  annotations:
+    github.com/project-slug: infracloudio/backstage-msvc-app/src/checkoutservice
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  dependsOn:
+    - component:boutique-frontend
