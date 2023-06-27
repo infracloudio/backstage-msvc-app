@@ -4,6 +4,7 @@ metadata:
   name: boutique-frontend
   annotations:
     github.com/project-slug: infracloudio/backstage-msvc-app/src/frontend
+    argocd/app-name: online-boutique
 spec:
   type: service
   lifecycle: production
