@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: infracloudio/backstage-msvc-app/src/frontend
     argocd/app-name: online-boutique
+    backstage.io/kubernetes-id: icici-demo
 spec:
   type: service
   lifecycle: production
