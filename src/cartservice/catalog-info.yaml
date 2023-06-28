@@ -4,6 +4,7 @@ metadata:
   name: boutique-carts
   annotations:
     github.com/project-slug: infracloudio/backstage-msvc-app/src/cartservice
+    backstage.io/kubernetes-label-selector: 'app=cartsservice'
 spec:
   type: service
   lifecycle: production
