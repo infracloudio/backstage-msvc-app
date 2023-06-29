@@ -14,6 +14,10 @@ metadata:
       title: Grafana Dashboard
       icon: dashboard
       type: observability
+    - url: "http://kubecost.infracloud-io.com/allocations?agg=pod&context=W3sia2V5IjoibmFtZXNwYWNlIiwibmFtZSI6ImRlZmF1bHQiLCJwcm9wZXJ0eSI6Ik5hbWVzcGFjZSIsInZhbHVlIjoiZGVmYXVsdCJ9LHsia2V5IjoiY29udHJvbGxlciIsIm5hbWUiOiJkZXBsb3ltZW50OmNhcnRzZXJ2aWNlIiwicHJvcGVydHkiOiJDb250cm9sbGVyIiwidmFsdWUiOiJkZXBsb3ltZW50OmNhcnRzZXJ2aWNlIn1d"
+      title: Service Cost Insight
+      icon: dashboard
+      type: observability
 spec:
   type: service
   lifecycle: production
