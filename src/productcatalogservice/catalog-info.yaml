@@ -4,6 +4,7 @@ metadata:
   name: boutique-products
   annotations:
     github.com/project-slug: infracloudio/backstage-msvc-app/src/productcatalogservice
+    argocd/app-name: online-boutique
     backstage.io/kubernetes-label-selector: 'app=productcatalogservice'    
     grafana/alert-label-selector: "app=productcatalogservice"
     grafana/dashboard-selector: "url=='http://grafana.infracloud-io.com/d/a164a7f0339f99e89cea5cb47e9be617/kubernetes-compute-resources-workload'"
