@@ -7,6 +7,7 @@ metadata:
     argocd/app-name: online-boutique
     backstage.io/kubernetes-label-selector: 'app=frontend'
     grafana/alert-label-selector: "app=frontend"
+    grafana/tag-selector: "app=frontend"
   links:
     - url: http://grafana.infracloud-io.com/d/6581e46e4e5c7ba40a07646395ef7b23/kubernetes-compute-resources-pod?var-datasource=default&var-cluster=&var-namespace=default&var-pod=frontend-7c46d6dcb6-h88xm&orgId=1&refresh=10s
       title: grafana dashboard
