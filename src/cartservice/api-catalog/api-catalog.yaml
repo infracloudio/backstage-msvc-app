@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: carts-api
+  name: boutique-carts-api
   description: API for the Carts Service
 spec:
-  type: swagger
-  lifecycle: development
+  type: openapi
+  lifecycle: production
   owner: user:guest
   definition:
     $text: https://github.com/infracloudio/backstage-msvc-app/blob/main/src/cartservice/api-catalog/open-api.yaml
